@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(30, 136, 74);
+}
+.me {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.first {
+    background-color: hsl(31, 77%, 52%);
+}
+.second {
+    background-color: hsl(184, 100%, 22%);
+}
+.third {
+    background-color: hsl(179, 100%, 13%);
+}
+h1 {
+    padding: 20px;
+    color: hsl(0, 0%, 95%);
+}
+button {
+    font-size: 15px;
+    border-radius: 20px;
+   font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+   place-items: center;
+   padding: 10px;
+   margin: 40px;
+}
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: hsla(0%, 0%, 100%, 0.75);
+    padding: 50px;
+    margin: 15px;
+}
+img {
+    padding: 15px;
+    margin: 15px;
+}
+.d {
+    color: hsl(31, 77%, 52%);
+}
+.g {
+   color: hsl(184, 100%, 22%);  
+}
+.e {
+   color: hsl(179, 100%, 13%); 
+}
